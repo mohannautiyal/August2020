@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44" started-at="2020-08-01T22:33:15 IST" finished-at="2020-08-01T22:33:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44" started-at="2020-08-01T22:33:15 IST" finished-at="2020-08-01T22:33:15 IST">
+      <class name="com.home.TestClassB">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.home.TestClassB@71423665]" name="BeforeSuite" is-config="true" duration-ms="17" started-at="2020-08-01T22:33:15 IST" finished-at="2020-08-01T22:33:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="TestD()[pri:0, instance:com.home.TestClassB@71423665]" name="TestD" duration-ms="10" started-at="2020-08-01T22:33:15 IST" finished-at="2020-08-01T22:33:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestD -->
+      </class> <!-- com.home.TestClassB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

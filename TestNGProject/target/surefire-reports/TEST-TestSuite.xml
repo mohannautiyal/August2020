@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.903" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.926" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Madan\AppData\Local\Temp\surefire5732964756437718379\surefirebooter641366013956873471.jar C:\Users\Madan\AppData\Local\Temp\surefire5732964756437718379 2020-08-01T19-17-16_323-jvmRun1 surefire7548244441888305219tmp surefire_01479484080489729tmp"/>
+    <property name="sun.java.command" value="C:\Users\Madan\AppData\Local\Temp\surefire4918912105405446708\surefirebooter3456848790998813270.jar C:\Users\Madan\AppData\Local\Temp\surefire4918912105405446708 2020-08-01T22-35-42_555-jvmRun1 surefire4159921169902370252tmp surefire_04907713354450582477tmp"/>
     <property name="surefire.test.class.path" value="E:\August2020\TestNGProject\target\test-classes;E:\August2020\TestNGProject\target\classes;C:\Users\Madan\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Madan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Madan"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Madan\AppData\Local\Temp\surefire5732964756437718379\surefirebooter641366013956873471.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Madan\AppData\Local\Temp\surefire4918912105405446708\surefirebooter3456848790998813270.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,15 +61,46 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="TestData[Madan Nautiyal, 1234](1)" classname="com.home.TestClass" time="0.004">
+  <testcase name="TestData[Madan Nautiyal, 1234](1)" classname="com.home.TestClass" time="0.005">
     <system-out><![CDATA[Running before suite
 Running before suite next class
+STARTING TEST.......
+onStart method started
+STARTING TEST.......
+onStart method started
+STARTING TEST.......
+onStart method started
+New Test StartedTestData
+New Test StartedTestData
+New Test StartedTestData
 Running with DataProvider Madan Nautiyal  and 1234
+onTestSuccess MethodTestData
+onTestSuccess MethodTestData
 ]]></system-out>
   </testcase>
-  <testcase name="TestData[Rishita Nautiyal, 2345](2)" classname="com.home.TestClass" time="0.001">
-    <system-out><![CDATA[Running with DataProvider Rishita Nautiyal  and 2345
+  <testcase name="TestData[Rishita Nautiyal, 2345](2)" classname="com.home.TestClass" time="0">
+    <system-out><![CDATA[onTestSuccess MethodTestData
+New Test StartedTestData
+New Test StartedTestData
+New Test StartedTestData
+Running with DataProvider Rishita Nautiyal  and 2345
+onTestSuccess MethodTestData
+onTestSuccess MethodTestData
 ]]></system-out>
   </testcase>
-  <testcase name="TestD" classname="com.home.TestClassB" time="0"/>
+  <testcase name="TestD" classname="com.home.TestClassB" time="0.003">
+    <system-out><![CDATA[onTestSuccess MethodTestData
+onFinish method started
+onFinish method started
+onFinish method started
+STARTING TEST.......
+onStart method started
+STARTING TEST.......
+onStart method started
+New Test StartedTestD
+New Test StartedTestD
+onTestSuccess MethodTestD
+onTestSuccess MethodTestD
+]]></system-out>
+  </testcase>
 </testsuite>
