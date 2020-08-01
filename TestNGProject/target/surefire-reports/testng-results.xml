@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="MySuite" duration-ms="81" started-at="2020-08-01T22:35:44 IST" finished-at="2020-08-01T22:35:44 IST">
+  <suite name="MySuite" duration-ms="82" started-at="2020-08-01T22:40:18 IST" finished-at="2020-08-01T22:40:18 IST">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="49" started-at="2020-08-01T22:35:44 IST" finished-at="2020-08-01T22:35:44 IST">
+    <test name="Test1" duration-ms="47" started-at="2020-08-01T22:40:18 IST" finished-at="2020-08-01T22:40:18 IST">
       <class name="com.home.TestClass">
-        <test-method status="PASS" signature="TestData(java.lang.String, int)[pri:0, instance:com.home.TestClass@6a4f787b]" name="TestData" duration-ms="2" started-at="2020-08-01T22:35:44 IST" data-provider="getData" finished-at="2020-08-01T22:35:44 IST">
+        <test-method status="PASS" signature="TestData(java.lang.String, int)[pri:0, instance:com.home.TestClass@5c3bd550]" name="TestData" duration-ms="2" started-at="2020-08-01T22:40:18 IST" data-provider="getData" finished-at="2020-08-01T22:40:18 IST">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestData -->
-        <test-method status="PASS" signature="TestData(java.lang.String, int)[pri:0, instance:com.home.TestClass@6a4f787b]" name="TestData" duration-ms="1" started-at="2020-08-01T22:35:44 IST" data-provider="getData" finished-at="2020-08-01T22:35:44 IST">
+        <test-method status="PASS" signature="TestData(java.lang.String, int)[pri:0, instance:com.home.TestClass@5c3bd550]" name="TestData" duration-ms="1" started-at="2020-08-01T22:40:18 IST" data-provider="getData" finished-at="2020-08-01T22:40:18 IST">
           <params>
             <param index="0">
               <value>
@@ -41,19 +41,19 @@
         </test-method> <!-- TestData -->
       </class> <!-- com.home.TestClass -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="5" started-at="2020-08-01T22:35:44 IST" finished-at="2020-08-01T22:35:44 IST">
+    <test name="Test2" duration-ms="4" started-at="2020-08-01T22:40:18 IST" finished-at="2020-08-01T22:40:18 IST">
       <class name="com.home.TestClass">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.home.TestClass@6a4f787b]" name="BeforeSuite" is-config="true" duration-ms="19" started-at="2020-08-01T22:35:44 IST" finished-at="2020-08-01T22:35:44 IST">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.home.TestClass@5c3bd550]" name="BeforeSuite" is-config="true" duration-ms="19" started-at="2020-08-01T22:40:18 IST" finished-at="2020-08-01T22:40:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
       </class> <!-- com.home.TestClass -->
       <class name="com.home.TestClassB">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.home.TestClassB@6500df86]" name="BeforeSuite" is-config="true" duration-ms="0" started-at="2020-08-01T22:35:44 IST" finished-at="2020-08-01T22:35:44 IST">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.home.TestClassB@14bf9759]" name="BeforeSuite" is-config="true" duration-ms="1" started-at="2020-08-01T22:40:18 IST" finished-at="2020-08-01T22:40:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="TestD()[pri:0, instance:com.home.TestClassB@6500df86]" name="TestD" duration-ms="3" started-at="2020-08-01T22:35:44 IST" finished-at="2020-08-01T22:35:44 IST">
+        <test-method status="PASS" signature="TestD()[pri:0, instance:com.home.TestClassB@14bf9759]" name="TestD" duration-ms="3" started-at="2020-08-01T22:40:18 IST" finished-at="2020-08-01T22:40:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestD -->

@@ -7,7 +7,7 @@ import org.testng.ITestResult;
 public class Testlistener implements ITestListener{
 
 	 public void onStart(ITestContext context) { 
-		 System.out.println("STARTING TEST.......");
+		
 		 System.out.println("onStart method started");
 		 }
 		 
