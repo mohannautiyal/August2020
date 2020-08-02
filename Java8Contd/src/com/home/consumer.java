@@ -33,7 +33,6 @@ public class consumer {
 	   // 	modifyNames.accept(Arrays.asList("ram","shyam","brij"));
 	    	
 	    Consumer<List<String>> display = x -> x.stream().forEach(System.out::println);	
-
 	    modifyNames.andThen(display).accept(Arrays.asList("ram","shyam","brij"));
 	    
 	}
