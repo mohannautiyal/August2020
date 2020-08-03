@@ -23,5 +23,12 @@ public class TestClass {
 		System.out.println("Running with DataProvider "+Param1+"  and "+Param2);
 		//assertTrue(false);
 	}
+	
+	// Running failed test cases. In the POM provide the path of the sure fire testngfailed.xml report
+	@Test
+	public void TestCaseFailed() {
+		
+		assertTrue(false);
+	}
 
 }
